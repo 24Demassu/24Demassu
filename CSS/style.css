@@ -37,6 +37,11 @@ li > a {
   color: #667085;
 }
 
+.nav-link a:hover {
+  color: #7F56D9
+
+}
+
 .nav-item #services {
   text-align: center;
   align-self: center;
@@ -51,7 +56,7 @@ li > a {
   background-color: #fdfdfd;
   border-radius: 5px;
   box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.05);
-  /* display: none; */
+  display: none;
   padding: 16px;
   position: absolute;
   top: 100%;
