@@ -8,13 +8,16 @@
   text-align: center;
   padding: 10px;
 }
-
 .nav-list {
   font-family: 'inter';
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
-  gap: 10px;
+  gap: 24px;
+}
+#bawahnavbar {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 li:first-child {
@@ -35,6 +38,11 @@ li > a {
   text-decoration: none;
   /* font-weight: 500; */
   color: #667085;
+}
+
+.nav-link:hover {
+  background-color: #F8F9FC ;
+  border-radius: 5px;
 }
 
 .nav-link a:hover {
