@@ -41,7 +41,7 @@ li > a {
 }
 
 .nav-link:hover {
-  background-color: #F8F9FC ;
+  background-color: #F2F4F7 ;
   border-radius: 5px;
 }
 
@@ -130,4 +130,88 @@ li > a {
   align-items: flex-start;
   position: absolute;
   left: 14px;
+}
+.card-body {
+  font-family: 'inter';
+}
+.text-modal {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6941C6;
+}
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  align-self: center;
+  background-color: #6941C6;
+}
+
+/* .card-inner-body{
+  display: grid;
+  gap: 12px;
+} */
+
+.card-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #101828;
+}
+.cardtitlecon{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+}
+a:link.cardtitlecon {
+  text-decoration: none;
+}
+a:hover>h5 {
+  color: #6941C6;
+}
+a:link>.icon-up-right {
+  background-image: url(/static/icon/arrow-up-right.svg);
+}
+a:hover>.icon-up-right {
+  background-image: url(/static/icon/arrow-up-right-hover.svg);
+}
+
+.icon-card-title {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background-size: cover;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.card-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.badge-text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #363F72;
+  mix-blend-mode: multiply;
 }
