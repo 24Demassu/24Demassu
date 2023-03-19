@@ -16,9 +16,9 @@
   <body>
     <!-- Navbar -->
     <section>
-      <nav class="navbar navbar-expand-lg bg-light bg-opacity-50 fixed-top" style="backdrop-filter: blur(10px); font-family: Inter;">
+      <nav class="navbar navbar-expand-lg bg-light bg-opacity-50 fixed-top py-3" style="backdrop-filter: blur(10px); font-family: Inter;">
         <div class="container-fluid" id="bawahnavbar"> 
-          <a class="navbar-brand" href="#">Home</a>
+          <a class="navbar-brand" href="#" style="font-family: sora;">Demassu</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -33,23 +33,21 @@
           <ul class="nav-list navbar-nav">
             <li class="nav-item">
               <a
-                class="nav-link active"
+                class="nav-link disabled"
                 aria-current="page"
                 role="button"
                 href="About.html"
                 target="_blank"
-                style="color: #667085;"
                 >About</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active"
+                class="nav-link disabled"
                 aria-current="page"
                 role="button"
                 href="blog.html"
                 target="_blank"
-                style="color: #667085;"
                 >Blog</a
               >
             </li>
@@ -64,33 +62,36 @@
                 >Contact</a
               >
             </li>
-            <li class="nav-link active" id="services"><a href="#">Selection works</a>
-              <div class="sub-nav">
-                <div class="sub-nav-col">
-                  <a href="#" class="sub-nav-box" id="box-1">
-                    <div class="icon-background" id="icon-1">
-                      <i class="icon"></i>
-                    </div>
-                    <h4>UI/UX Design</h4>
-                    <p>Selection of my work as a UI/UX Designer</p>
-                  </a>
-                  <a href="#" class="sub-nav-box" id="box-2">
-                    <div class="icon-background" id="icon-2">
-                      <i class="icon"></i>
-                    </div>
-                    <h4>UI/UX Design</h4>
-                    <p>Selection of my work as a UI/UX Designer</p>
-                  </a>
-                  <a href="#" class="sub-nav-box" id="box-3">
-                    <div class="icon-background" id="icon-3">
-                      <i class="icon"></i>
-                    </div>
-                    <h4>Graphic Design</h4>
-                    <p>I’ve done a lot of graphic works in the past, check it out!</p>
-                  </a>
+            <div class="dropdown active align-self-center">
+              <li class="" id="services" type="button" data-bs-toggle="dropdown" aria-expanded="false"><a href="#">Selection works</a>
+                <div class="sub-nav">
+                  <div class="sub-nav-col">
+                    <a href="#" class="sub-nav-box" id="box-1">
+                      <div class="icon-background" id="icon-1">
+                        <img src="static\icon\Nav-Graphic-Design-Icon.svg" alt="Graphic Design icon" class="icon">
+                      </div>
+                      <h4>Graphic Design</h4>
+                      <p>I’ve done a lot of graphic works in the past, check it out!</p>
+                    </a>
+                    <a href="#" class="sub-nav-box" id="box-2">
+                      <div class="icon-background" id="icon-2">
+                        <img src="static\icon\Nav-UIX-Icon.svg" alt="Graphic Design icon" class="icon">
+                      </div>
+                      <h4>UI/UX Design</h4>
+                      <p>Selection of my work as a UI/UX Designer</p>
+                    </a>
+                    <!-- <a href="#" class="sub-nav-box" id="box-3">
+                      <div class="icon-background" id="icon-3">
+                        <i class="icon"></i>
+                      </div>
+                      <h4>Graphic Design</h4>
+                      <p>I’ve done a lot of graphic works in the past, check it out!</p>
+                    </a> -->
+                  </div>
                 </div>
-              </div>
-            </li>
+              </li>
+              <img src="static\icon\chevron-down.svg">
+            </div>
           </ul>
         </div>
       </nav>
@@ -529,14 +530,14 @@
             </div>
           </div>
         </div>
-        <div class="container mt-lg-4 p-5">
+        <!-- <div class="container mt-lg-4 p-5">
           <div class="justify-content-between gap-2">
             <h2 class="display-5 align-items-start" style="font-family: Sora; font-weight:500;">About Me</h2>
           </div>
-        </div>
-        <div class="p-5 " style="background-color: #7e56d8;">
-          <div class="d-flex container-fluid p-5 justify-content-start">
-            <div class="flex-coloum">
+        </div> -->
+        <div class=" " style="background-color: #7e56d8; background-image: url(static/img/Contact-me\ Assets.png); background-repeat: no-repeat;  background-size: 780px auto; background-position: right;">
+          <div class="d-flex container justify-content-start">
+            <div class="flex-coloum py-5 my-5">
               <div class="container-fluid">
                 <h2 class="display-5 align-items-start" style="font-family: Sora; font-weight:500; color: white;">Let's Connect</h2>
               <span class="row-cols-lg-3 mt-lg-2">
@@ -548,19 +549,23 @@
               </div>
             </div>
             <div class="">
-              <img src="static/img/Eye.png" class="child">
+              <!-- <img src="static/img/Eye.png" class="child"> -->
+              <!-- <img src="static/img/Contact-me Assets.png" class="img-fluid childbg"> -->
             </div>
           </div>
         </div>
-        <div class="container mt-lg-4 p-5">
+        <div class="container my-4 p-5">
           <div class="d-flex justify-content-center" style="flex-direction: column;">
-            <h2 class="display-4 p-lg-3 align-self-center text-center" style="font-family: Sora; font-weight:500;">Thanks!👋</h2>
+            <h2 class="display-4 p-lg-3 align-self-center text-center" style="font-family: Sora; font-weight:500;">Thanks! 👋</h2>
             <p class="container-fluid align-self-center text-center" style="font-family: Sora; font-weight:200;"> Thank you for reading my portfolio. The image and picture in the case study belong to respective owners.
               Every work in this document is genuine and subjected to copyright. Please contact me for a further portfolio.</p>
           </div>
+          <!-- <div class="d-flex p-3 justify-content-center">
+            <span style="font-family: Sora; font-size: 14px; font-weight: 200; color: #aaadb5;">currently, this page is not responsive</span>
+          </div> -->
         </div>
         <div class="" style="background-color: #ededed;">
-          <div class="container-fluid d-flex justify-content-between col-lg-10 p-lg-3 gap-lg-1 ">
+          <div class="container-fluid d-flex justify-content-between col-lg-10 p-lg-3">
             <div class="p-3">
               <span class="p-1" style="font-family: Sora; font-size: 14px; align-self: center;">Digital UI Design Portfolio</span>
               <span class="border rounded-pill px-lg-2 align-item-center" style="font-family: Sora; font-weight: 450; align-self: center; font-size: 14px;">2022</span>
